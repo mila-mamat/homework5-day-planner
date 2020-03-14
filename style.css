@@ -17,15 +17,15 @@ body {
 table,
 th,
 td {
-  vertical-align: middle !important;
   text-align: center;
   padding: 0px !important;
   border: none;
   border-collapse: separate;
+  margin:0 ;
+  vertical-align: middle !important;
 }
 
 tr {
-  white-space: pre-wrap;
   height: 80px;
 }
 
@@ -51,11 +51,12 @@ textarea {
   border-top: 1px dashed black !important;
   border-bottom: none !important;
   width: 10%;
+  
 }
 
 .save {
   width: 10%;
-  padding: 0px;
+  padding: 0px !important;
   background-color: #06aed5;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -63,17 +64,21 @@ textarea {
   text-align: center !important;
 }
 
-.saveBtn {
+.saveBtn, .trashBtn {
   color: white;
   background-color: transparent;
   padding: 0px;
   border: none;
-  width:100%
-  
-}
+  width:100%;
+  margin:0 !important;
 
+}
+.save div{
+  padding:10px 0px;
+ 
+}
 .save i:hover {
-  font-size: 20px;
+  font-size: 18px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
