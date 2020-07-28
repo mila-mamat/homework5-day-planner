@@ -1,6 +1,9 @@
 # Homework5-day-planner
 Create a simple calendar application that allows the user to save events for each hour of the day.
 
+## Tools
+Javascripts, CSS
+
 ## Main functions of the day palnner
 1. The current day is displayed at the top of the calendar
 2. User can save events into local storage using save button, and clear out all events with one click
